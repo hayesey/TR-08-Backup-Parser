@@ -93,4 +93,10 @@ INST |1 2 3 4|5 6 7 8|9 1 1 1|1 1 1 1
  CH  |- - - -|- - - -|- - - -|- - - -
 ```
 
+## Caveats/limitations:
+
+* currently only works with 16 step parts even though it's possible to have up to 32 steps, length always seems to be 32 or 0 though
+* outputs both parts and both variations even if there is nothing in some of them
+* I've only done a very small amount of testing but the results do match the patterns in my TR-08. 
+
 Paul Hayes - paul@polog40.co.uk
